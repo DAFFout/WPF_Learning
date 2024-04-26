@@ -27,6 +27,7 @@
         <Button Name="btnketban" Content="Kết bạn" HorizontalAlignment="Left" Margin="326,390,0,0" VerticalAlignment="Top" Click="btnketban_Click" Background="LightYellow" Width="64"/>
         <Button Name ="btnnhaplai" Content="Nhập lại" HorizontalAlignment="Left" Margin="400,390,0,0" VerticalAlignment="Top" Click="btnnhaplai_Click" Background="LightYellow" Width="65"/>
         <Button Name ="btnexit" Content="Thoát" HorizontalAlignment="Left" Margin="475,390,0,0" VerticalAlignment="Top" Click="btnthoat_Click" Background="LightYellow" Width="56"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="475,120,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
