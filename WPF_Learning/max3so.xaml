@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPF_Learning.max3so"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Learning"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="max3so" Height="450" Width="800">
+    <Grid>
+        <Label Content="Tìm số lớn nhất" FontSize="30" Margin="227,6,305,369" ></Label>
+
+        <Label Content="Số thứ nhất" FontSize="20" Margin="179,65,492,330" ></Label>
+        <TextBox Name="txtso1" FontSize="20" HorizontalAlignment="Left" Margin="313,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Số thứ hai" FontSize="20" Margin="179,110,492,290" ></Label>
+        <TextBox Name="txtso2" FontSize="20" HorizontalAlignment="Left" Margin="313,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Số thứ ba" FontSize="20" Margin="179,150,492,250" ></Label>
+        <TextBox Name="txtso3" FontSize="20" HorizontalAlignment="Left" Margin="313,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Số lớn nhất" FontSize="20" Margin="179,200,492,200" ></Label>
+        <TextBox Name="txtsolonnhat" FontSize="20" HorizontalAlignment="Left" Margin="313,207,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnkq" Content="Kết quả" FontSize="20" HorizontalAlignment="Left" Margin="459,207,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.353,-1.626" Click="btnkq_Click"/>
+
+
+
+    </Grid>
+</Window>
